@@ -17,7 +17,10 @@
 </head>
 <body>
     <p>Navigation</p>
-    <main class="container">{{{ body }}}</main>
+    <main class="container">
+        {{>messages}}
+         {{>errors}}
+        {{{ body }}}</main>
     <p>footer </p>
     
 </body>

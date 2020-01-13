@@ -1,1 +1,19 @@
-<h1>Login</h1>
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card mt-4 text-center">
+            <div class="card-header">
+            <h1>Ingresar</h1>
+            </div>
+            <img src="/img/logo.png" class="rounded-circle mx-auto d-block m-4 logo" alt="Logito">
+            <div class="card-body">
+                <form action="/users/signin" method="POST">
+                <input type="email" name="email" class="form-control" placeholder="Correo Electronico">
+                <input type="password" name="password" class="form-control" placeholder="Contraseña">
+                <div class="form-group">
+                <button class="btn-primary btn-block" type="submit">Entrar</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
